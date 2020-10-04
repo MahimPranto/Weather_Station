@@ -11,4 +11,4 @@ weather.php shows the datas(frontend).
 
 In the info.php replace this line (get your token id from openweather and put it here) with your OpenWeatherMap Token. 
 line would be something like this
-$url="http://api.openweathermap.org/data/2.5/weather?q=".$selection."&lang=en&units=metric&appid= sdserewasd3453434 ";
+$url="http://api.openweathermap.org/data/2.5/weather?q=".$selection."&lang=en&units=metric&appid=sdserewasd3453434 ";
