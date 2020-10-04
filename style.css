@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: 'Century Gothic', sans-sarif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.jumbotron{
+	background: url(image/bg2.jpg) no-repeat;
+	width: cover;
+	height: 100vh;
+}
+.navbar-dark{
+    background-color: #A4E783;
+}
+.navbar-brand{
+	font-weight: bolder;
+	font-size: 2rem;
+}
+.container{
+	color: white;
+}
+.select{
+	margin: 0px auto;
+    padding: 30px 0px  20px 0px;
+    border-bottom: 1px ridge; 
+}
+
+#in{
+	padding-top: 5%
+}
+label{
+	font-size: 2rem;
+}
+.form-control{
+	font-size: 1.5rem;
+}
+.submit{
+	padding-top: 2%;
+}
+.items{
+
+	font-size: 2.5rem;
+	color: #CA2D11;
+}
+.lanlon{
+	font-size: 2rem;
+	color: #E2871E;
+}
+.top{
+	background-color: rgba(0,0,0,0.5);
+}
+.mid1{
+	font-size: 2rem;
+	color: white;
+
+	background-color: black;
+}
+.mid2{
+	font-size: 2rem;
+	color: #3A04CB;
+
+	background-color: #CB9804;
+}
+.mid3{
+	font-size: 2rem;
+	color: black;
+
+	background-color: white;
+}
+.content{
+	padding: 2% 2% 2% 2%;
+}
+.card{
+	padding: 2% 2% 2% 2%;
+	background-color: rgba(0,0,0,0.5);	
+}
+.card-body{
+	color: white;
+ }
+ .card-title{
+ 	 background-color: yellow;
+ 	 color: black;
+ 	 font-weight: bolder;
+ }
+ .card-text{
+	font-size: 2rem;
+ }
+ .icon{
+	width: 50px;
+ 	height: 50px;
+ 	padding: 5px;
+}
+.footer{
+    background-color: #A4E783;
+    margin-top: -2%;
+    padding: 10px 0px 20px 0px;
+}
+.footer p{
+	color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+}
+.dec{
+	width: 80px;
+ 	height: 80px;
+ 	padding: 0px;
+}
+.heading{
+	padding-top: 2%;
+}
+.btn-dark{
+	font-size: 2rem;
+	font-weight: bold;
+}
+.info{
+	font-size: 1.5rem;
+}
+.card a{
+	font-size: 2rem;
+}
+.footer li{
+  display: inline-block;
+  list-style: none; 
+  padding: 10px;
+}
+a i{ 
+  transition: all 0.2s linear
+ }
+ a:hover i{
+  transform: scale(1.4);
+ }
+
+@media screen and (min-width: 576px){
+  	.jumbotron{
+  		height: 50% !important;
+  	}
+}
+@media screen and (max-width: 576px){
+  	.jumbotron{
+  		height: 50% !important;
+  	}
+}
