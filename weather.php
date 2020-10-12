@@ -10,7 +10,6 @@
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style.css">
 
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<?php include 'info.php'?>
@@ -126,370 +125,370 @@
 				<div class="col details">
 					<!-- accordion starts -->
 						<div id="accordion">
-                    			<div class="row">
-                    			<!-- day 1 info starts -->
-                    			<div class="col">
-                    				<div class="card">
-		                       			<div class="card-header" role="tab" id="day1head">
-		                        			<h3 class="mb-0">
-		                            		<a data-toggle="collapse" data-target="#day1"><?php echo $day1[0];?></a>
-		                        			</h3>
-		                        		</div>
-		                        		<div class="collapse" id="day1" data-parent="#accordion">
-		                            		<div class="card-body">
-		                            			<div class="row">
-									<div class="col">
-										<p class="info">
-										   <?php echo $day1[11].",".$day1[12];?> </p>
-									</div>
-								</div>
-			                                	<div class="row">
-									<div class="col order-sm-first">
-										<p class="info">
-										   <?php echo "Minimum Temperature: ". $day1[1]. "&deg;c";?> </p>
-									</div>
-									<div class="col order-sm-last">
-										<p class="info">
-										   <?php echo "Maximum Temperature: ". $day1[2]. "&deg;c";?> </p>
-									</div>
-								</div>
-												
-								<div class="row">
-									<div class="col">
-										<p class="info">
-										   <?php echo "Morning: ".$day1[6]."&deg;c";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Afternoon: ".$day1[3]."&deg;c";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Evening: ".$day1[5]."&deg;c";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Night: ".$day1[4]."&deg;c";?> </p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-2 d-none d-lg-block"></div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Pressure: ".$day1[7]."hPa";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Humidity: ".$day1[8]."%";?> </p>
-									</div>
-									<div class="col-2 d-none d-lg-block"></div>
-								</div>
-								<div class="row">
-									<div class="col-2 d-none d-lg-block"></div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Dew Point: ".$day1[9]."&deg;c";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Wind Speed: ".$day1[10]."m/s ";?> </p>
-									</div>
-									<div class="col-2 d-none d-lg-block"></div>
-								</div>
-								<div class="row">
-									<div class="col-2 d-none d-lg-block"></div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Cloud: ".$day1[13]."mm/h";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Uvi: ".$day1[14];?> </p>
-									</div>
-									<div class="col-2 d-none d-lg-block"></div>
-								</div>
-			                            	</div>
-		                        	</div>
-                   			</div>
-                   				</div> <!-- day 1 info ends -->
+							<div class="row">
+								<!-- day 1 info starts -->
+								<div class="col">
+									<div class="card">
+										<div class="card-header" role="tab" id="day1head">
+											<h3 class="mb-0">
+											<a data-toggle="collapse" data-target="#day1"><?php echo $day1[0];?></a>
+											</h3>
+										</div>
+										<div class="collapse" id="day1" data-parent="#accordion">
+											<div class="card-body">
+												<div class="row">
+													<div class="col">
+														<p class="info">
+														   <?php echo $day1[11].",".$day1[12];?> </p>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col order-sm-first">
+														<p class="info">
+														   <?php echo "Minimum Temperature: ". $day1[1]. "&deg;c";?> </p>
+													</div>
+													<div class="col order-sm-last">
+														<p class="info">
+														   <?php echo "Maximum Temperature: ". $day1[2]. "&deg;c";?> </p>
+													</div>
+												</div>
 
-                   				<!-- day 2 info starts -->
-                   				<div class="col">
-			                   		<div class="card">
-		                       			<div class="card-header" role="tab" id="day2head">
-		                        			<h3 class="mb-0">
-		                            		<a data-toggle="collapse" data-target="#day2"><?php echo $day2[0];?></a>
-		                        			</h3>
-		                        		</div>
-		                        		<div class="collapse" id="day2" data-parent="#accordion">
-		                            		<div class="card-body">
-		                            			<div class="row">
-									<div class="col">
-										<p class="info">
-										   <?php echo $day2[11].",".$day2[12];?> </p>
+												<div class="row">
+													<div class="col">
+														<p class="info">
+														   <?php echo "Morning: ".$day1[6]."&deg;c";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Afternoon: ".$day1[3]."&deg;c";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Evening: ".$day1[5]."&deg;c";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Night: ".$day1[4]."&deg;c";?> </p>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-2 d-none d-lg-block"></div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Pressure: ".$day1[7]."hPa";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Humidity: ".$day1[8]."%";?> </p>
+													</div>
+													<div class="col-2 d-none d-lg-block"></div>
+												</div>
+												<div class="row">
+													<div class="col-2 d-none d-lg-block"></div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Dew Point: ".$day1[9]."&deg;c";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Wind Speed: ".$day1[10]."m/s ";?> </p>
+													</div>
+													<div class="col-2 d-none d-lg-block"></div>
+												</div>
+												<div class="row">
+													<div class="col-2 d-none d-lg-block"></div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Cloud: ".$day1[13]."mm/h";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Uvi: ".$day1[14];?> </p>
+													</div>
+													<div class="col-2 d-none d-lg-block"></div>
+												</div>
+											</div>
+										</div>
 									</div>
-								</div>
-			                                	<div class="row">
-									<div class="col order-sm-first">
-										<p class="info">
-										   <?php echo "Minimum Temperature: ". $day2[1]. "&deg;c";?> </p>
-									</div>
-									<div class="col order-sm-last">
-										<p class="info">
-										   <?php echo "Maximum Temperature: ". $day2[2]. "&deg;c";?> </p>
-									</div>
-								</div>
+								</div> <!-- day 1 info ends -->
 
-								<div class="row">
-									<div class="col">
-										<p class="info">
-										   <?php echo "Morning: ".$day2[6]."&deg;c";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Afternoon: ".$day2[3]."&deg;c";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Evening: ".$day2[5]."&deg;c";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Night: ".$day2[4]."&deg;c";?> </p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-2 d-none d-lg-block"></div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Pressure: ".$day2[7]."hPa";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Humidity: ".$day2[8]."%";?> </p>
-									</div>
-									<div class="col-2 d-none d-lg-block"></div>
-								</div>
-								<div class="row">
-									<div class="col-2 d-none d-lg-block"></div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Dew Point: ".$day2[9]."&deg;c";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Wind Speed: ".$day2[10]."m/s ";?> </p>
-									</div>
-									<div class="col-2 d-none d-lg-block"></div>
-								</div>
-								<div class="row">
-									<div class="col-2 d-none d-lg-block"></div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Cloud: ".$day2[13]."mm/h";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Uvi: ".$day2[14];?> </p>
-									</div>
-									<div class="col-2 d-none d-lg-block"></div>
-								</div>
-			                            	</div>
-		                        		</div>
-		                   		 </div>
-		                   	</div> <!-- day 2 info ends -->
-		                   	</div>
-		                   	<div class="row">
-		                   		<!-- day 3 info starts -->
-		                   		<div class="col">
-		                   			<div class="card">
-		                       			<div class="card-header" role="tab" id="day3head">
-		                        			<h3 class="mb-0">
-		                            		<a data-toggle="collapse" data-target="#day3"><?php echo $day3[0];?></a>
-		                        			</h3>
-		                        		</div>
-		                        		<div class="collapse" id="day3" data-parent="#accordion">
-		                            		<div class="card-body">
-		                            			<div class="row">
-									<div class="col">
-										<p class="info">
-										   <?php echo $day3[11].",".$day3[12];?> </p>
-									</div>
-								</div>
-			                                	<div class="row">
-									<div class="col order-sm-first">
-										<p class="info">
-										   <?php echo "Minimum Temperature: ". $day3[1]. "&deg;c";?> </p>
-									</div>
-									<div class="col order-sm-last">
-										<p class="info">
-										   <?php echo "Maximum Temperature: ". $day3[2]. "&deg;c";?> </p>
-									</div>
-								</div>
-												
-								<div class="row">
-									<div class="col">
-										<p class="info">
-										   <?php echo "Morning: ".$day3[6]."&deg;c";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Afternoon: ".$day3[3]."&deg;c";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Evening: ".$day3[5]."&deg;c";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Night: ".$day3[4]."&deg;c";?> </p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-2 d-none d-lg-block"></div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Pressure: ".$day3[7]."hPa";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Humidity: ".$day3[8]."%";?> </p>
-									</div>
-									<div class="col-2 d-none d-lg-block"></div>
-								</div>
-								<div class="row">
-									<div class="col-2 d-none d-lg-block"></div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Dew Point: ".$day3[9]."&deg;c";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Wind Speed: ".$day3[10]."m/s ";?> </p>
-									</div>
-									<div class="col-2 d-none d-lg-block"></div>
-								</div>
-								<div class="row">
-									<div class="col-2 d-none d-lg-block"></div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Cloud: ".$day3[13]."mm/h";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Uvi: ".$day3[14];?> </p>
-									</div>
-									<div class="col-2 d-none d-lg-block"></div>
-								</div>
-			                            	</div>
-		                        		</div>
-		                   		</div>
-		                   		</div> <!-- day 3 info ends -->
+								<!-- day 2 info starts -->
+								<div class="col">
+									<div class="card">
+										<div class="card-header" role="tab" id="day2head">
+											<h3 class="mb-0">
+											<a data-toggle="collapse" data-target="#day2"><?php echo $day2[0];?></a>
+											</h3>
+										</div>
+										<div class="collapse" id="day2" data-parent="#accordion">
+											<div class="card-body">
+												<div class="row">
+													<div class="col">
+														<p class="info">
+														   <?php echo $day2[11].",".$day2[12];?> </p>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col order-sm-first">
+														<p class="info">
+														   <?php echo "Minimum Temperature: ". $day2[1]. "&deg;c";?> </p>
+													</div>
+													<div class="col order-sm-last">
+														<p class="info">
+														   <?php echo "Maximum Temperature: ". $day2[2]. "&deg;c";?> </p>
+													</div>
+												</div>
 
-		                   		<!-- day 4 info starts -->
-		                   		<div class="col">
-		                   			<div class="card">
-								<div class="card-header" role="tab" id="day4head">
-									<h3 class="mb-0">
-								<a data-toggle="collapse" data-target="#day4"><?php echo $day4[0];?></a>
-									</h3>
-								</div>
-							<div class="collapse" id="day4" data-parent="#accordion">
-							<div class="card-body">
-								<div class="row">
-									<div class="col">
-										<p class="info">
-										   <?php echo $day4[11].",".$day4[12];?> </p>
+												<div class="row">
+													<div class="col">
+														<p class="info">
+														   <?php echo "Morning: ".$day2[6]."&deg;c";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Afternoon: ".$day2[3]."&deg;c";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Evening: ".$day2[5]."&deg;c";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Night: ".$day2[4]."&deg;c";?> </p>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-2 d-none d-lg-block"></div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Pressure: ".$day2[7]."hPa";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Humidity: ".$day2[8]."%";?> </p>
+													</div>
+													<div class="col-2 d-none d-lg-block"></div>
+												</div>
+												<div class="row">
+													<div class="col-2 d-none d-lg-block"></div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Dew Point: ".$day2[9]."&deg;c";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Wind Speed: ".$day2[10]."m/s ";?> </p>
+													</div>
+													<div class="col-2 d-none d-lg-block"></div>
+												</div>
+												<div class="row">
+													<div class="col-2 d-none d-lg-block"></div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Cloud: ".$day2[13]."mm/h";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Uvi: ".$day2[14];?> </p>
+													</div>
+													<div class="col-2 d-none d-lg-block"></div>
+													</div>
+												</div>
+											</div>
+										</div>
 									</div>
-								</div>
-			                                	<div class="row">
-									<div class="col order-sm-first">
-										<p class="info">
-										   <?php echo "Minimum Temperature: ". $day4[1]. "&deg;c";?> </p>
+								</div> <!-- day 2 info ends --> 
+							  <div class="row">
+								<!-- day 3 info starts -->
+								<div class="col">
+									<div class="card">
+										<div class="card-header" role="tab" id="day3head">
+											<h3 class="mb-0">
+											<a data-toggle="collapse" data-target="#day3"><?php echo $day3[0];?></a>
+											</h3>
+										</div>
+										<div class="collapse" id="day3" data-parent="#accordion">
+											<div class="card-body">
+												<div class="row">
+													<div class="col">
+														<p class="info">
+														   <?php echo $day3[11].",".$day3[12];?> </p>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col order-sm-first">
+														<p class="info">
+														   <?php echo "Minimum Temperature: ". $day3[1]. "&deg;c";?> </p>
+													</div>
+													<div class="col order-sm-last">
+														<p class="info">
+														   <?php echo "Maximum Temperature: ". $day3[2]. "&deg;c";?> </p>
+													</div>
+												</div>
+
+												<div class="row">
+													<div class="col">
+														<p class="info">
+														   <?php echo "Morning: ".$day3[6]."&deg;c";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Afternoon: ".$day3[3]."&deg;c";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Evening: ".$day3[5]."&deg;c";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Night: ".$day3[4]."&deg;c";?> </p>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-2 d-none d-lg-block"></div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Pressure: ".$day3[7]."hPa";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Humidity: ".$day3[8]."%";?> </p>
+													</div>
+													<div class="col-2 d-none d-lg-block"></div>
+												</div>
+												<div class="row">
+													<div class="col-2 d-none d-lg-block"></div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Dew Point: ".$day3[9]."&deg;c";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Wind Speed: ".$day3[10]."m/s ";?> </p>
+													</div>
+													<div class="col-2 d-none d-lg-block"></div>
+												</div>
+												<div class="row">
+													<div class="col-2 d-none d-lg-block"></div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Cloud: ".$day3[13]."mm/h";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Uvi: ".$day3[14];?> </p>
+													</div>
+													<div class="col-2 d-none d-lg-block"></div>
+												</div>
+											</div>
+										</div>
 									</div>
-									<div class="col order-sm-last">
-										<p class="info">
-										   <?php echo "Maximum Temperature: ". $day4[2]. "&deg;c";?> </p>
-									</div>
-								</div>
-												
-								<div class="row">
-									<div class="col">
-										<p class="info">
-										   <?php echo "Morning: ".$day4[6]."&deg;c";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Afternoon: ".$day4[3]."&deg;c";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Evening: ".$day4[5]."&deg;c";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Night: ".$day4[4]."&deg;c";?> </p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-2 d-none d-lg-block"></div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Pressure: ".$day4[7]."hPa";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Humidity: ".$day4[8]."%";?> </p>
-									</div>
-									<div class="col-2 d-none d-lg-block"></div>
-								</div>
-								<div class="row">
-									<div class="col-2 d-none d-lg-block"></div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Dew Point: ".$day4[9]."&deg;c";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Wind Speed: ".$day4[10]."m/s ";?> </p>
-									</div>
-									<div class="col-2 d-none d-lg-block"></div>
-								</div>
-								<div class="row">
-									<div class="col-2 d-none d-lg-block"></div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Cloud: ".$day4[13]."mm/h";?> </p>
-									</div>
-									<div class="col">
-										<p class="info">
-										   <?php echo "Uvi: ".$day4[14];?> </p>
-									</div>
-									<div class="col-2 d-none d-lg-block"></div>
-								</div>
-			                            	</div>
-		                        		</div>
-		                   			 </div>
-		                   		</div>	<!-- day 4 info ends --> 
-                   			</div>
-                   			<div class="row">
-                   				<!-- day 5 info starts -->
-                   				<div class="col"> 
-		                   			<div class="card">
-		                       			<div class="card-header" role="tab" id="day5head">
-		                        			<h3 class="mb-0">
-		                            		<a data-toggle="collapse" data-target="#day5"><?php echo $day5[0];?></a>
-		                        			</h3>
-		                        		</div>
-		                        		<div class="collapse" id="day5" data-parent="#accordion">
-		                            		<div class="card-body">
-		                            			<div class="row">
+								</div> <!-- day 3 info ends -->
+
+								<!-- day 4 info starts -->
+								<div class="col">
+									<div class="card">
+										<div class="card-header" role="tab" id="day4head">
+											<h3 class="mb-0">
+											<a data-toggle="collapse" data-target="#day4"><?php echo $day4[0];?></a>
+											</h3>
+										</div>
+										<div class="collapse" id="day4" data-parent="#accordion">
+											<div class="card-body">
+												<div class="row">
+													<div class="col">
+														<p class="info">
+														   <?php echo $day4[11].",".$day4[12];?> </p>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col order-sm-first">
+														<p class="info">
+														   <?php echo "Minimum Temperature: ". $day4[1]. "&deg;c";?> </p>
+													</div>
+													<div class="col order-sm-last">
+														<p class="info">
+														   <?php echo "Maximum Temperature: ". $day4[2]. "&deg;c";?> </p>
+													</div>
+												</div>
+
+												<div class="row">
+													<div class="col">
+														<p class="info">
+														   <?php echo "Morning: ".$day4[6]."&deg;c";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Afternoon: ".$day4[3]."&deg;c";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Evening: ".$day4[5]."&deg;c";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Night: ".$day4[4]."&deg;c";?> </p>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-2 d-none d-lg-block"></div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Pressure: ".$day4[7]."hPa";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Humidity: ".$day4[8]."%";?> </p>
+													</div>
+													<div class="col-2 d-none d-lg-block"></div>
+												</div>
+												<div class="row">
+													<div class="col-2 d-none d-lg-block"></div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Dew Point: ".$day4[9]."&deg;c";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Wind Speed: ".$day4[10]."m/s ";?> </p>
+													</div>
+													<div class="col-2 d-none d-lg-block"></div>
+												</div>
+												<div class="row">
+													<div class="col-2 d-none d-lg-block"></div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Cloud: ".$day4[13]."mm/h";?> </p>
+													</div>
+													<div class="col">
+														<p class="info">
+														   <?php echo "Uvi: ".$day4[14];?> </p>
+													</div>
+													<div class="col-2 d-none d-lg-block"></div>
+												</div>
+											</div>
+										</div>
+									 </div>
+								</div>	<!-- day 4 info ends --> 
+							</div>
+							<div class="row">
+								<!-- day 5 info starts -->
+								<div class="col"> 
+									<div class="card">
+										<div class="card-header" role="tab" id="day5head">
+											<h3 class="mb-0">
+											<a data-toggle="collapse" data-target="#day5"><?php echo $day5[0];?></a>
+											</h3>
+										</div>
+										<div class="collapse" id="day5" data-parent="#accordion">
+											<div class="card-body">
+												<div class="row">
 													<div class="col">
 														<p class="info">
 														   <?php echo $day5[11].",".$day5[12];?> </p>
 													</div>
 												</div>
-			                                	<div class="row">
+												<div class="row">
 													<div class="col order-sm-first">
 														<p class="info">
 														   <?php echo "Minimum Temperature: ". $day5[1]. "&deg;c";?> </p>
@@ -499,7 +498,7 @@
 														   <?php echo "Maximum Temperature: ". $day5[2]. "&deg;c";?> </p>
 													</div>
 												</div>
-												
+
 												<div class="row">
 													<div class="col">
 														<p class="info">
@@ -554,28 +553,28 @@
 													</div>
 													<div class="col-2 d-none d-lg-block"></div>
 												</div>
-			                            	</div>
-		                        		</div>
-		                   			</div>
-		                   		</div> <!-- day 5 info ends -->
+											</div>
+										</div>
+									</div>
+								</div> <!-- day 5 info ends -->
 
-		                   		<!-- day 6 info starts -->
-		                   		<div class="col">
-		                   			<div class="card">
-		                       			<div class="card-header" role="tab" id="day6head">
-		                        			<h3 class="mb-0">
-		                            		<a data-toggle="collapse" data-target="#day6"><?php echo $day6[0];?></a>
-		                        			</h3>
-		                        		</div>
-		                        		<div class="collapse" id="day6" data-parent="#accordion">
-		                            		<div class="card-body">
-		                            			<div class="row">
+								<!-- day 6 info starts -->
+								<div class="col">
+									<div class="card">
+										<div class="card-header" role="tab" id="day6head">
+											<h3 class="mb-0">
+											<a data-toggle="collapse" data-target="#day6"><?php echo $day6[0];?></a>
+											</h3>
+										</div>
+										<div class="collapse" id="day6" data-parent="#accordion">
+											<div class="card-body">
+												<div class="row">
 													<div class="col">
 														<p class="info">
 														   <?php echo $day6[11].",".$day6[12];?> </p>
 													</div>
 												</div>
-			                                	<div class="row">
+												<div class="row">
 													<div class="col order-sm-first">
 														<p class="info">
 														   <?php echo "Minimum Temperature: ". $day6[1]. "&deg;c";?> </p>
@@ -585,7 +584,7 @@
 														   <?php echo "Maximum Temperature: ". $day6[2]. "&deg;c";?> </p>
 													</div>
 												</div>
-												
+
 												<div class="row">
 													<div class="col">
 														<p class="info">
@@ -640,29 +639,29 @@
 													</div>
 													<div class="col-2 d-none d-lg-block"></div>
 												</div>
-			                            	</div>
-		                        		</div>
-		                   			</div>
-		                   		</div> <!-- day 6 info ends -->
-		                   	</div>
-		                   	<div class="row">
-		                   		<!-- day 7 info starts -->
-		                   		<div class="col">
-		                   			<div class="card">
-		                       			<div class="card-header" role="tab" id="day7head">
-		                        			<h3 class="mb-0">
-		                            		<a data-toggle="collapse" data-target="#day7"><?php echo $day7[0];?></a>
-		                        			</h3>
-		                        		</div>
-		                        		<div class="collapse" id="day7" data-parent="#accordion">
-		                            		<div class="card-body">
-		                            			<div class="row">
+											</div>
+										</div>
+									</div>
+								</div> <!-- day 6 info ends -->
+							   </div>
+							   <div class="row">
+								<!-- day 7 info starts -->
+								<div class="col">
+									<div class="card">
+										<div class="card-header" role="tab" id="day7head">
+											<h3 class="mb-0">
+											<a data-toggle="collapse" data-target="#day7"><?php echo $day7[0];?></a>
+											</h3>
+										</div>
+										<div class="collapse" id="day7" data-parent="#accordion">
+											<div class="card-body">
+												<div class="row">
 													<div class="col">
 														<p class="info">
 														   <?php echo $day7[11].",".$day7[12];?> </p>
 													</div>
 												</div>
-			                                	<div class="row">
+												<div class="row">
 													<div class="col order-sm-first">
 														<p class="info">
 														   <?php echo "Minimum Temperature: ". $day7[1]. "&deg;c";?> </p>
@@ -672,7 +671,7 @@
 														   <?php echo "Maximum Temperature: ". $day7[2]. "&deg;c";?> </p>
 													</div>
 												</div>
-												
+
 												<div class="row">
 													<div class="col">
 														<p class="info">
@@ -727,28 +726,28 @@
 													</div>
 													<div class="col-2 d-none d-lg-block"></div>
 												</div>
-			                            	</div>
-		                        		</div>
-		                   			</div>
-		                   		</div> <!-- day 7 info ends -->
+											</div>
+										</div>
+									</div>
+								</div> <!-- day 7 info ends -->
 
-		                   		<!-- day 8 info starts -->
-		                   		<div class="col">
-		                   			<div class="card">
-		                       			<div class="card-header" role="tab" id="day8head">
-		                        			<h3 class="mb-0">
-		                            		<a data-toggle="collapse" data-target="#day8"><?php echo $day8[0];?></a>
-		                        			</h3>
-		                        		</div>
-		                        		<div class="collapse" id="day8" data-parent="#accordion">
-		                            		<div class="card-body">
-		                            			<div class="row">
+								<!-- day 8 info starts -->
+								<div class="col">
+									<div class="card">
+										<div class="card-header" role="tab" id="day8head">
+											<h3 class="mb-0">
+											<a data-toggle="collapse" data-target="#day8"><?php echo $day8[0];?></a>
+											</h3>
+										</div>
+										<div class="collapse" id="day8" data-parent="#accordion">
+											<div class="card-body">
+												<div class="row">
 													<div class="col">
 														<p class="info">
 														   <?php echo $day8[11].",".$day8[12];?> </p>
 													</div>
 												</div>
-			                                	<div class="row">
+												<div class="row">
 													<div class="col order-sm-first">
 														<p class="info">
 														   <?php echo "Minimum Temperature: ". $day8[1]. "&deg;c";?> </p>
@@ -758,7 +757,7 @@
 														   <?php echo "Maximum Temperature: ". $day8[2]. "&deg;c";?> </p>
 													</div>
 												</div>
-												
+
 												<div class="row">
 													<div class="col">
 														<p class="info">
@@ -813,17 +812,17 @@
 													</div>
 													<div class="col-2 d-none d-lg-block"></div>
 												</div>
-			                            	</div>
-		                        		</div>
-		                   			</div>
-		                   		</div> <!-- day 8 info ends -->
-		                   	</div>	
+											</div>
+										</div>
+									</div>
+								</div> <!-- day 8 info ends -->
+							  </div>	
   
-                		</div> <!-- accordion ends -->
+                				</div> <!-- accordion ends -->
 					</div>
-			</div>
-		</div> <!-- container for 8 days info ends  -->
-	</div>
+				</div>
+			</div> <!-- container for 8 days info ends  -->
+		</div>
 
 	<!-- footer starts -->
 	<footer class="footer">
